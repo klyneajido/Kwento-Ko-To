@@ -1,0 +1,20 @@
+{
+    "name": "driq/posts",
+    "type": "projcet",
+    "autoload": {
+        "psr-4": {
+            "Driq\\Posts\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AndriqKlyne",
+            "email": "andriqklyne.ajido@lorma.edu"
+        }
+    ],
+    "require": {
+        "google/cloud-firestore": "^1.33",
+        "kreait/firebase-php": "^7.2",
+        "kreait/firebase-tokens": "^4.2"
+    }
+}
